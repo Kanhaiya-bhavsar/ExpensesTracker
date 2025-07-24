@@ -1,0 +1,10 @@
+C:\Users\KanhaiyaShamBhavsar\source\Demo Project\ExpenseTracker\obj\Debug\net9.0\ExpenseTracker.csproj.AssemblyReference.cache
+C:\Users\KanhaiyaShamBhavsar\source\Demo Project\ExpenseTracker\obj\Debug\net9.0\ExpenseTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KanhaiyaShamBhavsar\source\Demo Project\ExpenseTracker\obj\Debug\net9.0\ExpenseTracker.AssemblyInfoInputs.cache
+C:\Users\KanhaiyaShamBhavsar\source\Demo Project\ExpenseTracker\obj\Debug\net9.0\ExpenseTracker.AssemblyInfo.cs
+C:\Users\KanhaiyaShamBhavsar\source\Demo Project\ExpenseTracker\obj\Debug\net9.0\ExpenseTracker.csproj.CoreCompileInputs.cache
+C:\Users\KanhaiyaShamBhavsar\source\Demo Project\ExpenseTracker\obj\Debug\net9.0\ExpenseTracker.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\KanhaiyaShamBhavsar\source\Demo Project\ExpenseTracker\obj\Debug\net9.0\ExpenseTracker.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\KanhaiyaShamBhavsar\source\Demo Project\ExpenseTracker\obj\Debug\net9.0\ExpenseTracker.dll
+C:\Users\KanhaiyaShamBhavsar\source\Demo Project\ExpenseTracker\obj\Debug\net9.0\refint\ExpenseTracker.dll
+C:\Users\KanhaiyaShamBhavsar\source\Demo Project\ExpenseTracker\obj\Debug\net9.0\ExpenseTracker.pdb

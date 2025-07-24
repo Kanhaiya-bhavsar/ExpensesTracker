@@ -1,0 +1,44 @@
+.about-card {
+    max-width: 800px;
+    margin: 32px auto;
+    padding: 24px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .company-name {
+    font-size: 32px;
+    color: #3f51b5;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .location {
+    font-size: 16px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 16px;
+  }
+  
+  .section-heading {
+    color: #3f51b5;
+    font-weight: bold;
+    margin-top: 24px;
+  }
+  
+  .about-text {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .feature-list {
+    padding-left: 20px;
+    margin-top: 12px;
+  }
+  
+  .feature-list li {
+    margin-bottom: 8px;
+    font-size: 15px;
+  }
+  

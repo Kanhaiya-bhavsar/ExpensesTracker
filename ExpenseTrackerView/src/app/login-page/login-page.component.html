@@ -1,0 +1,40 @@
+<mat-card class="login-container">
+  <h2>Login - Employee System</h2>
+
+  <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+    <!-- Username Input -->
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Username</mat-label>
+      <input matInput type="text" formControlName="username" required />
+      <mat-error *ngIf="loginForm.get('username')?.hasError('required')">
+        Username is required.
+      </mat-error>
+    </mat-form-field>
+
+    <!-- Password Input -->
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Password</mat-label>
+      <input matInput type="password" formControlName="password" required />
+      <mat-error *ngIf="loginForm.get('password')?.hasError('required')">
+        Password is required.
+      </mat-error>
+    </mat-form-field>
+
+    <!-- Submit Button -->
+    <button
+      mat-raised-button
+      color="primary"
+      class="full-width"
+      type="submit"
+      [disabled]="loginForm.invalid"
+    >
+      Login
+    </button>
+  </form>
+
+  <!-- Show User Role after login -->
+  
+
+  <!-- Register Link -->
+  <p>Don't have an account? <a routerLink="/register">Register</a></p>
+</mat-card>

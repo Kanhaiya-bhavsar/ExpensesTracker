@@ -1,0 +1,73 @@
+<app-carosel></app-carosel>
+<div class="ToggleButton" style="margin-bottom: 16px;">
+  <button mat-raised-button color="primary" (click)="toggleForm()">
+    {{ isFormVisible ? 'Hide Form' : 'Show Form' }}
+  </button>
+</div>
+
+<mat-card *ngIf="isFormVisible" style="padding: 16px; margin: 30px;">
+  <form [formGroup]="expenseForm" class="form-grid" (ngSubmit)="addOrUpdateExpense()">
+    
+    <input type="hidden" formControlName="id" />
+
+    <mat-form-field appearance="outline">
+      <mat-label>Description</mat-label>
+      <input matInput formControlName="description" />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Date</mat-label>
+      <input matInput type="date" formControlName="transactionDate" />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Value</mat-label>
+      <input matInput type="number" formControlName="value" />
+    </mat-form-field>
+    
+
+    <mat-form-field appearance="outline">
+      <mat-label>Account</mat-label>
+      <mat-select formControlName="accountId">
+        <mat-option *ngFor="let account of accounts" [value]="account.id">
+          {{ account.name }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Category</mat-label>
+      <mat-select formControlName="categoryId">
+        <mat-option *ngFor="let category of categories" [value]="category.id">
+          {{ category.name }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    
+    <div style="margin: 16px 0;">
+      <label style="font-weight: bold;">Upload Bill:</label><br>
+      <input type="file" (change)="onFileSelected($event)" style="margin-top: 8px;" />
+    </div>
+  
+    
+
+    <button mat-raised-button color="primary" type="submit">
+      {{ isEditMode ? 'Update Expense' : 'Add Expense' }}
+    </button>
+    <button  mat-raised-button color="primary" type="button" (click)="resetForm()">Reset</button>
+
+  </form>
+</mat-card>
+
+<div class="ag-theme-alpine ag-grid-fixed" id="expense">
+  <ag-grid-angular
+    style="width: 100%;"
+    class="ag-theme-alpine"
+    [rowData]="rowData"
+    [columnDefs]="columnDefs"
+    rowSelection="multiple"
+    [animateRows]="true"
+    domLayout="autoHeight">
+  </ag-grid-angular>
+</div>

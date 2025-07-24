@@ -1,0 +1,21 @@
+.delete-button {
+    background-color: #d32f2f; /* Red color for delete */
+    color: white;
+    font-weight: bold;
+    border: none;
+
+  
+    cursor: pointer;
+ 
+  }
+  
+  .delete-button:hover {
+    background-color: #b71c1c; /* Darker red on hover */
+  }
+  
+  .delete-button:disabled {
+    background-color: #e0e0e0;
+    color: #9e9e9e;
+    cursor: not-allowed;
+  }
+  

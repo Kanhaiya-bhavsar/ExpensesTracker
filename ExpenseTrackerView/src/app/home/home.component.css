@@ -1,0 +1,60 @@
+/* AG Grid Styles */
+@import 'ag-grid-community/styles/ag-grid.css';
+@import 'ag-grid-community/styles/ag-theme-alpine.css';
+
+/* Form Container Grid Layout */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
+
+/* Each Form Field */
+mat-form-field {
+  width: 100%;
+}
+
+/* Form Card Style */
+.form-container {
+  margin-bottom: 24px;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Toggle Button Area */
+.toggle-button {
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+/* Form Action Buttons */
+.form-actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  grid-column: 1 / -1;
+  margin-top: 8px;
+}
+
+/* AG Grid Container Styling */
+.ag-grid-container {
+  margin-top: 20px;
+  padding: 16px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+/* Optional: Fixed Height Grid */
+.ag-grid-fixed {
+  height: 700px;
+  width: 100%;
+  overflow: hidden;
+}
+.toggle-button{
+  margin-top: 40px;
+  margin: 20px;
+}

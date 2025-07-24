@@ -1,0 +1,37 @@
+<div class="account-container">
+    <!-- Add / Update Form -->
+    <form [formGroup]="accountForm" (ngSubmit)="submitForm()" class="form-section">
+      <mat-form-field appearance="outline" class="form-field">
+        <mat-label>Account Name</mat-label>
+        <input matInput formControlName="name" />
+      </mat-form-field>
+  
+      <mat-form-field appearance="outline" class="form-field">
+        <mat-label>Balance</mat-label>
+        <input matInput type="number" formControlName="balance" />
+      </mat-form-field>
+  
+      <button mat-raised-button color="primary" type="submit">
+        {{ editingId ? 'Update' : 'Add' }}
+      </button>
+    </form>
+  
+    <!-- Account Cards -->
+    <div class="card-grid">
+      <mat-card class="account-card" *ngFor="let account of accounts">
+        <mat-card-title>{{ account.name }}</mat-card-title>
+        <mat-card-subtitle>Balance: ₹{{ account.balance }}</mat-card-subtitle>
+        <mat-divider></mat-divider>
+        <mat-card-actions>
+          <button mat-button color="primary" (click)="viewExpenses(account.id)">View Expenses</button>
+          <button mat-icon-button color="accent" (click)="editAccount(account)">
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button mat-icon-button color="warn" (click)="deleteAccount(account.id)">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+  

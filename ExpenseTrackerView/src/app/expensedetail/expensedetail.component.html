@@ -1,0 +1,14 @@
+<h2 *ngIf="type === 'account'">Expenses According To Account Name</h2>
+<h2 *ngIf="type === 'category'">Expenses According To Category Name</h2>
+
+<div class="ag-theme-alpine ag-grid-fixed" id="expense">
+    <ag-grid-angular
+      style="width: 100%;"
+      class="ag-theme-alpine"
+      [rowData]="rowData"
+      [columnDefs]="columnDefs"
+      rowSelection="multiple"
+      [animateRows]="true"
+      domLayout="autoHeight">
+    </ag-grid-angular>
+  </div>

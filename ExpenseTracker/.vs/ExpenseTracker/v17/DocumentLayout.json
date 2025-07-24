@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KanhaiyaShamBhavsar\\source\\Demo Project\\ExpenseTracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB26E2A-F9BD-4FD1-926A-357D94DF0B11}|..\\ExpenseTracker.Infrastructure\\ExpenseTracker.Infrastructure.csproj|c:\\users\\kanhaiyashambhavsar\\source\\demo project\\expensetracker.infrastructure\\expensetrackerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BA66BC5-F0C6-4E21-8FA3-247B16B308E3}|..\\ExpenseTracker.Application\\ExpenseTracker.Application.csproj|c:\\users\\kanhaiyashambhavsar\\source\\demo project\\expensetracker.application\\expensetracker.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExpenseTrackerDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\KanhaiyaShamBhavsar\\source\\Demo Project\\ExpenseTracker.Infrastructure\\ExpenseTrackerDbContext.cs",
+              "RelativeDocumentMoniker": "..\\ExpenseTracker.Infrastructure\\ExpenseTrackerDbContext.cs",
+              "ToolTip": "C:\\Users\\KanhaiyaShamBhavsar\\source\\Demo Project\\ExpenseTracker.Infrastructure\\ExpenseTrackerDbContext.cs",
+              "RelativeToolTip": "..\\ExpenseTracker.Infrastructure\\ExpenseTrackerDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T17:34:10.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExpenseTracker.Application",
+              "DocumentMoniker": "C:\\Users\\KanhaiyaShamBhavsar\\source\\Demo Project\\ExpenseTracker.Application\\ExpenseTracker.Application.csproj",
+              "RelativeDocumentMoniker": "..\\ExpenseTracker.Application\\ExpenseTracker.Application.csproj",
+              "ToolTip": "C:\\Users\\KanhaiyaShamBhavsar\\source\\Demo Project\\ExpenseTracker.Application\\ExpenseTracker.Application.csproj",
+              "RelativeToolTip": "..\\ExpenseTracker.Application\\ExpenseTracker.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-21T09:45:49.109Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

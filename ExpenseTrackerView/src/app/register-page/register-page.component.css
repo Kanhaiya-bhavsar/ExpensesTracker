@@ -1,0 +1,13 @@
+.register-container {
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+mat-card {
+  padding: 20px;
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 16px;
+}
